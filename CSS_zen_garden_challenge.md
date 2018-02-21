@@ -3,6 +3,7 @@
 ## Setup
 
 > Create a new repo on github
+
 > Create an `exercise` branch and get working.
 
 ## Requirements
