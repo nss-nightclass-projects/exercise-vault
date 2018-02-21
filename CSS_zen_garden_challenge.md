@@ -4,24 +4,11 @@
 
 > Create a new repo on github
 > Create an `exercise` branch and get working.
-> Create a 'design1' folder and a 'design2' folder
 
 ## Requirements
 
-Download the HTML and CSS files.  
-:paperclip: [HTML](http://www.csszengarden.com/examples/index)  
-:paperclip: [CSS](http://www.csszengarden.com/examples/style.css)  
+Visit [CSS Zen Garden](http://www.csszengarden.com/examples)  and explore some of the designs.  Pick a design you like and recreate it.
 
-Copy the contents of the HTML file into your `index.html`.  
-Copy the contents of the CSS file into your `styles.css`.  
+Think carefully about how you create your HTML to ensure that it appropriately uses semantic and non semantic tags.
 
-One of each of these files should go in each design folder.
-
-
-
-Visit http://www.csszengarden.com/ and explore some of the designs.  Pick two designs you like and recreate them.
-
-
-> The only rule: you may only change the CSS; not the HTML.
-
-> :pencil2:  In an effort to keep this project like the Zen Garden website, this exercise does not have a styles folder.
+Your CSS should be clean and well organized.
