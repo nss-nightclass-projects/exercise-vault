@@ -115,7 +115,13 @@ var offerings = [1,2,3,4,5];
 
 <hr/>
 
-### Challenge #8: 
+### Challenge #8: Dashatize it
+Given a number, display a string with dash'-'marks before and after each odd integer, but do not begin or end the string with a dash mark.
+
+```
+var test1 = 274; // Display = '2-7-4'
+var test2 = 6815; // Display = '68-1-5'
+```
 
 <hr/>
 
