@@ -1,15 +1,15 @@
 # JS Arrays
 
 ## Setup
-* Create a new repo called jsArrayChallenges
+* Create a new repo on Github called jsArrayChallenges
 * Create a new folder ~/workspace/static-web/exercises/jsArrayChallenges
-* Push up a README.md
-* Setup:  make an index.html and main.js.  Index should have boilerplate and script tag.  main.js file should have console.log
+* Push up a README.md with the title of the repo on to master branch
+* Setup branch:  make an index.html and main.js.  Index should have boilerplate and script tag.  main.js file should have console.log. You should run http-server and confirm that there are no errors and that everything is working as expected.
 
 
 ## Requirements
 * This assignment contains 10 challenges that involve arrays
-* Each challenge should be done on a new branch - I should see 10 merged PRs to know you are done with this assignment
+* Each challenge should be done on a new branch - I should see 10 merged PRs (11 total with setup) to know you are done with this assignment
 * For each challenge make a div with an id of that challenge number in the index.html.  
 ```
 <div id="challenge-1"></div>
