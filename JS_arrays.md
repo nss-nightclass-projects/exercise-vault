@@ -129,9 +129,21 @@ var test2 = 6815; // Display = '68-1-5'
 
 <hr/>
 
-### Challenge #10: 
+### Challenge #10: Bowling Pins
+We are DOM bowling!!!!!  
 
+```
+I I I I  # each Pin has a Number:    7 8 9 10
+ I I I                                4 5 6
+  I I                                  2 3
+   I                                    1
+```
 
+You will get an Array with Numbers: like [3,5,9] Remove those pins from the field and display the remaining pins in the DOM like this:
 
-
-
+```
+I I   I
+ I   I
+  I
+   I
+```
