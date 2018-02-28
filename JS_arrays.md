@@ -39,6 +39,7 @@ var challengeTwoInputC = [9,2,4,7,3];  //[9,2,4,3,7];
 ```
 
 <hr/>
+
 ### Challenge #3: Find the unique number
 Given an array of more than 3 numbers where all numbers are equal except for one. Display the one unique number!
 ```
@@ -47,6 +48,7 @@ var challengeThreeInputB = [ 0, 0, 0, 0, 0, 0, 0, 0.55, 0, 0 ];  // 0.55
 ```
 
 <hr/>
+
 ### Challenge #4: Lost Without a Map
 Given an array of any number of integers display the array with each value doubled.
 ```
@@ -55,6 +57,7 @@ var challengeFourInputB = [ 3, 8, 1, 2, 4, 12 ];  // [ 6, 16, 2, 4, 8, 24 ]
 ```
 
 <hr/>
+
 ### Challenge #5: Array.diff
 Given two arrays remove all values from array1 that are present in array2.
 
@@ -73,6 +76,7 @@ var array2 = [5, 9, 2];
 ```
 
 <hr/>
+
 ### Challenge #6: Number Zoo Patrol
 You're working in a number zoo, and it seems that one of the numbers has gone missing!  Given an array of numbers. The numbers will be unsorted values between 1 and one more than the length of the array. No values will be repeated within the array. displaythe number that is missing.
 
@@ -84,6 +88,7 @@ var test3 = [13,11,10,3,2,1,4,5,6,9,7,8]; // 12
 ```
 
 <hr/>
+
 ### Challenge #7: English beggars
 Given an array of values and an amount of beggars, you are supposed to return an array with the sum of what each beggar brings home, assuming they all take regular TURNS, from the first to the last. Not all beggars have to take the same offers - ie the length of the array is not a multiple of the number of beggers.  Dipl
 
@@ -109,10 +114,15 @@ var offerings = [1,2,3,4,5];
 ```
 
 <hr/>
+
 ### Challenge #8: 
+
 <hr/>
+
 ### Challenge #9: 
+
 <hr/>
+
 ### Challenge #10: 
 
 
