@@ -55,11 +55,59 @@ var challengeFourInputB = [ 3, 8, 1, 2, 4, 12 ];  // [ 6, 16, 2, 4, 8, 24 ]
 ```
 
 <hr/>
-### Challenge #5: 
+### Challenge #5: Array.diff
+Given two arrays remove all values from array1 that are present in array2.
+
+Example 1:
+```
+var array1 = [1,2];
+var array2 = [1];
+//display = [2]
+```
+
+Example 2:
+```
+var array1 = [1,2, 4, 7, 5, 9];
+var array2 = [5, 9, 2];
+//display = [1, 4, 7]
+```
+
 <hr/>
-### Challenge #6: 
+### Challenge #6: Number Zoo Patrol
+You're working in a number zoo, and it seems that one of the numbers has gone missing!  Given an array of numbers. The numbers will be unsorted values between 1 and one more than the length of the array. No values will be repeated within the array. displaythe number that is missing.
+
+Examples:
+```
+var test1 = [1,3]; // 2
+var test2 = [2,3,4]; // 1
+var test3 = [13,11,10,3,2,1,4,5,6,9,7,8]; // 12
+```
+
 <hr/>
-### Challenge #7: 
+### Challenge #7: English beggars
+Given an array of values and an amount of beggars, you are supposed to return an array with the sum of what each beggar brings home, assuming they all take regular TURNS, from the first to the last. Not all beggars have to take the same offers - ie the length of the array is not a multiple of the number of beggers.  Dipl
+
+Example 1:
+```
+var numBeggers = 2;
+var offerings = [1,2,3,4,5];
+// first one takes [1, 3, 5]=9
+// second one takes [2, 4]=6
+
+//display [9, 6]
+```
+
+Example 2:
+```
+var numBeggers = 3;
+var offerings = [1,2,3,4,5];
+// first one takes [1, 4]=5
+// second one takes [2, 5]=7
+// second one takes [3]=3
+
+//display [5, 7, 3]
+```
+
 <hr/>
 ### Challenge #8: 
 <hr/>
