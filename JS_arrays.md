@@ -59,7 +59,7 @@ var challengeFourInputB = [ 3, 8, 1, 2, 4, 12 ];  // [ 6, 16, 2, 4, 8, 24 ]
 <hr/>
 
 ### Challenge #5: Array.diff
-Given two arrays remove all values from array1 that are present in array2.
+Given two arrays remove all values from array1 that are present in array2.  Display the final results of array1
 
 Example 1:
 ```
@@ -125,8 +125,8 @@ var test2 = 6815; // Display = '68-1-5'
 
 <hr/>
 
-### Challenge #9: 
-Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+### Challenge #9: Create Phone Number
+Write some code that accepts an array of 10 integers (between 0 and 9) and displays a string of those numbers in the form of a phone number.
 
 Example:
 ```
