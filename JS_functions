@@ -5,40 +5,91 @@
 * Create a new folder ~/workspace/static-web/exercises/jsObjecChallenges
 * Push up a README.md with the title of the repo on to master branch
 * Setup branch:  make an index.html and main.js.  Index should have boilerplate and script tag.  main.js file should have console.log. You should run http-server and confirm that there are no errors and that everything is working as expected.
+* Write a function called writeToDom that takes two inputs - domString and domId.  This function should use the domId to grab the output div and write the domString to it for example:
+```
+writeToDom("I go in div#2", "challenge-2");
+
+writeToDom(domString domId){
+  <DO STUFF HERE to put "I go in div#2" in the div is id="challenge-2">
+}
+
+
+```
 
 
 ## Requirements
-* This assignment contains 10 challenges that involve functions
+* This assignment contains 5 challenges that involve functions
 * Each challenge should be done on a new branch - I should see 10 merged PRs (11 total with setup) to know you are done with this assignment
-* For each challenge make a div with an id of that challenge number in the index.html.  
-```
-<div id="challenge-1"></div>
-```
-* The ouput for each challenge should be displayed in the coresponding div
+* Once you have an answer use the writeToDom function that you created when you did the setup branch to display the result
 * Before you merge each challenge in check that the code is properly indented and remove ALL console.logs
 
 ## Challenges
 
-### Challenge #1: 
+### Challenge #1: How old will I be in 2099?
+Philip's just turned four and he wants to know how old he will be in various years in the future such as 2090 or 3044. His parents can't keep up calculating this so they've begged you to help them out by writing a programme that can answer Philip's endless questions.
+
+Your task is to write a function that takes two parameters: the year of birth and the year to count years in relation to. As Philip is getting more curious every day he may soon want to know how many years it was until he would be born, so your function needs to work with both dates in the future and in the past.
+
+Provide output in this format: For dates in the future: "You are ... year(s) old." For dates in the past: "You will be born in ... year(s)." If the year of birth equals the year requested return: "You were born this very year!"
+
+"..." are to be replaced by the number, followed and proceeded by a single space. Mind that you need to account for both "year" and "years", depending on the result.
+
+Good Luck!
+
 
 <hr/>
 
 
-### Challenge #2: 
+### Challenge #2: Simple Maths Test
+Create a function which checks a number for three different properties.
+
+is the number prime?
+is the number even?
+is the number a multiple of 10?
+Each should return either true or false, which should be given as an array. Remark: The Haskell variant uses data Property.
+
+Examples
+numberProperty(7)  // ==> [true,  false, false] 
+numberProperty(10) // ==> [false, true,  true]
 
 <hr/>
 
 
-### Challenge #3: 
+### Challenge #3: Unique Sum
+Given a list of integers values, your job is to return the sum of the values; however, if the same integer value appears multiple times in the list, you can only count it once in your sum.
 
+For example:
+
+[ 1, 2, 3] ==> 6
+
+[ 1, 3, 8, 1, 8] ==> 12
+
+[ -1, -1, 5, 2, -7] ==> -1
+
+[] ==> None
 <hr/>
 
 
-### Challenge #4: 
+### Challenge #4: Filter out the geese
+Write a function, gooseFilter/goose_filter/GooseFilter, that takes an array of strings as an argument and returns a filtered array containing the same elements but with the 'geese' removed.
 
+The geese are any strings in the following array, which is pre-populated in your solution:
+
+geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+For example, if this array were passed as an argument:
+
+["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]
+Your function would return the following array:
+
+["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
+The elements in the returned array should be in the same order as in the initial array passed to your function, albeit with the 'geese' removed. Note that all of the strings will be in the same case as those provided, and some elements may be repeated.
 <hr/>
 
 
-### Challenge #5: 
+### Challenge #5: Sort by Last Char
+Given a string of words (x), you need to return an array of the words, sorted alphabetically by the final character in each.
 
+If two words have the same last letter, they returned array should show them in the order they appeared in the given string.
+
+All inputs will be valid.
 <hr/>
