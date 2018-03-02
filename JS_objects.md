@@ -109,7 +109,7 @@ var candidate1 = {
 let job1 = {
   maxSalary: 140000
 }
-//output is true.  this job can hire any minSalary less than 126,$000
+//output is true.  this job can hire any minSalary less than $126,000
 
 
 var candidate1 = {
@@ -118,5 +118,5 @@ var candidate1 = {
 let job1 = {
   maxSalary: 100000
 }
-//output is false.  this job can hire any minSalary less than 90,$000
+//output is false.  this job can hire any minSalary less than $90,000
 ```
