@@ -8,7 +8,7 @@
 
 
 ## Requirements
-* This assignment contains 10 challenges that involve objects
+* This assignment contains 5 challenges that involve objects
 * Each challenge should be done on a new branch - I should see 10 merged PRs (11 total with setup) to know you are done with this assignment
 * For each challenge make a div with an id of that challenge number in the index.html.  
 ```
