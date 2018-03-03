@@ -2,14 +2,14 @@
 
 ## Setup
 * Create a new repo on Github called jsObjectChallenges
-* Create a new folder ~/workspace/static-web/exercises/jsObjecChallenges
+* Create a new folder ~/workspace/static-web/exercises/jsObjectChallenges
 * Push up a README.md with the title of the repo on to master branch
 * Setup branch:  make an index.html and main.js.  Index should have boilerplate and script tag.  main.js file should have console.log. You should run http-server and confirm that there are no errors and that everything is working as expected.
 
 
 ## Requirements
 * This assignment contains 5 challenges that involve objects
-* Each challenge should be done on a new branch - I should see 10 merged PRs (11 total with setup) to know you are done with this assignment
+* Each challenge should be done on a new branch - I should see 5 merged PRs (6 total with setup) to know you are done with this assignment
 * For each challenge make a div with an id of that challenge number in the index.html.  
 ```
 <div id="challenge-1"></div>
@@ -69,7 +69,7 @@ var country = 'Russia'  // should return 0
 
 
 ### Challenge #3: Arithmetic
-Given an object containing two numbers and an arithmetic operator, return the appropriate math result..
+Given an object containing two numbers and an arithmetic operator, return the appropriate math result.
 
 The four operators are "add", "subtract", "divide", "multiply".
 
