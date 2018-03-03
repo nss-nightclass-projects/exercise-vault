@@ -94,5 +94,5 @@ Given a string of words (x), you need to return an array of the words, sorted al
 If two words have the same last letter, they returned array should show them in the order they appeared in the given string.
 ```
 challenge5("I love pie"); //["love", "pie", "I"]
-challenge5("bears live in the woods"); //["live", "the", "in", "bears", "woods",]
+challenge5("bears live in the woods"); //["live", "the", "in", "bears", "woods"]
 ```
