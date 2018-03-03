@@ -32,10 +32,12 @@ Your task is to write a function that takes two parameters: the year of birth an
 
 Provide output in this format: For dates in the future: "You are ... year(s) old." For dates in the past: "You will be born in ... year(s)." If the year of birth equals the year requested return: "You were born this very year!"
 
-"..." are to be replaced by the number, followed and proceeded by a single space. Mind that you need to account for both "year" and "years", depending on the result.
-
-Good Luck!
-
+Examples:
+```
+challenge1(2000, 2010); // You are 10 years old.
+challenge1(2000, 1995); // You will be born in 5 years.
+challenge1(2000, 2000); // You were born this very year!
+```
 
 <hr/>
 
@@ -43,14 +45,17 @@ Good Luck!
 ### Challenge #2: Simple Maths Test
 Create a function which checks a number for three different properties.
 
-is the number prime?
-is the number even?
-is the number a multiple of 10?
-Each should return either true or false, which should be given as an array. Remark: The Haskell variant uses data Property.
+1.  Is the number prime?
+2,  Is the number even?
+3.  Is the number a multiple of 10?
+Each should return either true or false, which should be given as an array.
 
-Examples
-numberProperty(7)  // ==> [true,  false, false] 
-numberProperty(10) // ==> [false, true,  true]
+Examples:
+
+```
+challenge2(7)  // ==> [true,  false, false] 
+challenge2(10) // ==> [false, true,  true]
+```
 
 <hr/>
 
@@ -59,30 +64,27 @@ numberProperty(10) // ==> [false, true,  true]
 Given a list of integers values, your job is to return the sum of the values; however, if the same integer value appears multiple times in the list, you can only count it once in your sum.
 
 For example:
+```
+challenge3([ 1, 2, 3]) //6
+challenge1([ 1, 3, 8, 1, 8]) //12
+challenge1([ -1, -1, 5, 2, -7])//-1
+```
 
-[ 1, 2, 3] ==> 6
-
-[ 1, 3, 8, 1, 8] ==> 12
-
-[ -1, -1, 5, 2, -7] ==> -1
-
-[] ==> None
 <hr/>
 
 
 ### Challenge #4: Filter out the geese
-Write a function, gooseFilter/goose_filter/GooseFilter, that takes an array of strings as an argument and returns a filtered array containing the same elements but with the 'geese' removed.
+Write a function that takes an array of strings as an argument and returns a filtered array containing the same elements but with the 'geese' removed.
 
-The geese are any strings in the following array, which is pre-populated in your solution:
-
+The geese are any strings in the following array:
+```
 geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
-For example, if this array were passed as an argument:
+```
+Example:
+```
+challenge4(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]) //["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
+```
 
-["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]
-Your function would return the following array:
-
-["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
-The elements in the returned array should be in the same order as in the initial array passed to your function, albeit with the 'geese' removed. Note that all of the strings will be in the same case as those provided, and some elements may be repeated.
 <hr/>
 
 
@@ -91,5 +93,5 @@ Given a string of words (x), you need to return an array of the words, sorted al
 
 If two words have the same last letter, they returned array should show them in the order they appeared in the given string.
 
-All inputs will be valid.
-<hr/>
+challenge5("I love pie"); //["love", "pie", "I"]
+challenge5("bears live in the woods"); //["live", "the", "in", "bears", "woods",]
