@@ -2,14 +2,14 @@
 
 ## Setup
 * Create a new repo on Github called jsFunctionChallenges
-* Create a new folder ~/workspace/static-web/exercises/jsObjecChallenges
+* Create a new folder ~/workspace/static-web/exercises/jsFunctionChallenges
 * Push up a README.md with the title of the repo on to master branch
 * Setup branch:  make an index.html and main.js.  Index should have boilerplate and script tag.  main.js file should have console.log. You should run http-server and confirm that there are no errors and that everything is working as expected.
 * Write a function called writeToDom that takes two inputs - domString and domId.  This function should use the domId to grab the output div and write the domString to it for example:
 ```
 writeToDom("I go in div#2", "challenge-2");
 
-writeToDom(domString domId){
+writeToDom(domString, domId){
   <DO STUFF HERE to put "I go in div#2" in the div is id="challenge-2">
 }
 
@@ -19,7 +19,7 @@ writeToDom(domString domId){
 
 ## Requirements
 * This assignment contains 5 challenges that involve functions
-* Each challenge should be done on a new branch - I should see 10 merged PRs (11 total with setup) to know you are done with this assignment
+* Each challenge should be done on a new branch - I should see 5 merged PRs (6 total with setup) to know you are done with this assignment
 * Once you have an answer use the writeToDom function that you created when you did the setup branch to display the result
 * Before you merge each challenge in check that the code is properly indented and remove ALL console.logs
 
