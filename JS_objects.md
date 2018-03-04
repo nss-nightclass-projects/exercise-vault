@@ -58,7 +58,7 @@ var winnerList = [
   {season: '2015-2016', team: 'Real Madrid', country: 'Spain'},
   {season: '2016-2017', team: 'Real Madrid', country: 'Spain'},
 ];
-var country = 'Spain'  // should return 8
+var country = 'Spain'  // should return 9
 var country = 'Portugal'  // should return 1
 var country = 'Russia'  // should return 0
 
