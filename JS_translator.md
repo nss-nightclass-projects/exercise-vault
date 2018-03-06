@@ -2,19 +2,19 @@
 
 ## Instructions
 
-Represent a small bilingual sentence as a Javascript object (see example below) and use it to translate a holiday card message from English into another language.
+Represent a small bilingual sentence as a Javascript object (see example below) that represents a limited dictionary and use it to translate a holiday card message from English into another language.
 
 `{"merry":"god", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"år"}`
 
 This is Swedish, so please choose other languages. You can add as many words/translations as you wish so that the user can write more complex holiday cards.
 
-1. Your translator should work for 3 languages other than english
-1. Your project should have one HTML file that has a textarea, buttons that have the language to translate to, and an empty DOM element into which the translated text will be inserted.
-1.  The user types something in, clicks the button they want to translate to, and that language should appear in the emody DOM element.
+1. Your translator should work for 3 languages other than English, so you should have 3 different dictionary objects.
+1. Your project should have one HTML file that includes a textarea (for users to enter limited phrases with words contained in your dictionaries), 3 buttons that have the language to translate to, and an empty DOM element into which the translated text will be inserted.
+1.  The user types something in, clicks the button they want to translate to, and that translated statement should appear in the empty DOM element.
 
 
 ## Style Requirements
-1.  Your JS file should be comprised of functions - there should be no code that is not in a function
+1.  Your JS file should be comprised of functions, no actions should happen in your code outside of a function
 1.  Your HTML and JS should all have proper indentations
 
 
@@ -30,12 +30,16 @@ This is Swedish, so please choose other languages. You can add as many words/tra
 5.  Include the appropriate section of your Moqup on the github project card.
 
 
+
 ---
 
 ## Optional Bonus
 
 1.  I'm Feeling Lucky
-> Have an additional button that says **I'm Feeling Lucky**.  When the user clicks that button your code should randomly decide what language to translate to.
+> Have an additional button that says **I'm Feeling Lucky**.  When the user clicks that button your code should randomly decide what language to translate to and output it to the DOM.
 
 2.  Read the answer
 > In addition to inserting the translated text into the HTML document, have the browser read the translated text to the user.
+
+3. Make Your Own Bonus
+> After you complete all of the above, you may come up with your own feature and get it approved by your product owners (the instructors) before you implement it.
