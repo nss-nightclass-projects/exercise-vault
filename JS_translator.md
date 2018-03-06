@@ -22,17 +22,17 @@ This is Swedish, so please choose other languages. You can add as many words/tra
 1.  You should not start coding until all steps in this planning section are complete (you may push the README.md to master but no other code)
 2.  Create a github project for this assignment
 3.  Determine how you are going to break this assignment into different features and make a github projects card for each feature.  Each card should have the following:
-    * Card Title (Example: "Create Navbar")
-    * User story: (Example: "As a user, when I am on the site, there should be a navbar")
-    * Dev Notes:  (Example: "Create a nav element with an li for about, projects, and blogs.  Clicking on the li should take me to a blank page with an h1 tag of that element")
-    * Acceptance Criteria: (Example: "There should be a navbar, its should have 3 links, the links should work, the pages they go to should display a single h1 tag with the page title")
+      * Card Title (Example: "Create Navbar")
+      * User story: (Example: "As a user, when I am on the site, there should be a navbar")
+      * Dev Notes:  (Example: "Create a nav element with an li for about, projects, and blogs.  Clicking on the li should take me to a blank page with an h1 tag of that element")
+      * Acceptance Criteria: (Example: "There should be a navbar, its should have 3 links, the links should work, the pages they go to should display a single h1 tag with the page title")
 4.  Use a wireframe tool like [Moqups](https://moqups.com) to create wireframes for your page.
 5.  Include the appropriate section of your Moqup on the github project card.
 
 
 ---
 
-## **Optional Bonus **
+## Optional Bonus
 
 1.  I'm Feeling Lucky
 > Have an additional button that says **I'm Feeling Lucky**.  When the user clicks that button your code should randomly decide what language to translate to.
