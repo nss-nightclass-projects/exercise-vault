@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Represent a small bilingual sentence as a Javascript object (see example below) that represents a limited dictionary and use it to translate a holiday card message from English into another language.
+Create a Javascript object (see example below) that represents a limited dictionary and use it to translate a holiday card message from English into another language.
 
 `{"merry":"god", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"år"}`
 
