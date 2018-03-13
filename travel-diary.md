@@ -11,7 +11,7 @@
 1. Create an array of objects that represent places you've been or want to go. These objects should have a title, image and description. You need at least 5 unique objects in the array.
 1. Print each of the objects to the DOM in a "card" that also has it's own input box and submit button. There should be 3 "cards" per row.
 1. The final result of printing the array should look like the following mockup:
-
+![Travel Diary Mock Up Part 1](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/TravelDiaryPt1.png?raw=true)
 
 
 5. Create two functions:
