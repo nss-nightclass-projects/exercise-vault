@@ -17,8 +17,10 @@
 	- The text box for that card should be cleared upon submission.
 5. The diary entries should build up as the user continues to type in cards and submit their entries. Newest entries should appear at the bottom. The final result will look like the following mockup:
 ![Travel Diary Mock Up Part 2](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/TravelDiaryPt2.png?raw=true)
+BONUS ALERT: Once a user has written about a place at least once, change the color of the card for that place.
 
 ## Technical Requirements
 
 1. Single responsibility prinicple: Each function should be responsible for one thing.
-1. No 
+1. No frameworks or libraries (Bootstrap/Materialize, jQuery, etc); everything is vanilla
+
