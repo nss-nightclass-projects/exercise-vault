@@ -18,10 +18,15 @@
 	- The text box for that card should be cleared upon submission.
 5. The diary entries should build up as the user continues to type in cards and submit their entries. Newest entries should appear at the bottom. The final result will look like the following mockup:
 ![Travel Diary Mock Up Part 2](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/TravelDiaryPt2.png?raw=true)
+
 BONUS ALERT: Once a user has written about a place at least once, change the color of the card for that place.
+
 BONUS BONUS ALERT: Add a timestamp to the diary entries.
+
 BONUS BONUS BONUS ALERT: Users should be able to delete diary entries.
+
 ![But wait there's more...](http://s2.quickmeme.com/img/a7/a78ae76da19c1a0f9e0e9b2f7e6229e70bd36cf7bc5b2f29b5f8900face50234.jpg)
+
 BONUS BONUS BONUS BONUS ALERT: Users should be able to edit their diary entries.
 
 ## Technical Requirements
