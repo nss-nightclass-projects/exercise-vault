@@ -7,6 +7,11 @@
 1. After pushing your base README.md to master, you should be working off branches
 1. Create an index.html, main.js and main.css and link them all together.
 
+## Technical Requirements
+
+1. Single responsibility prinicple: Each function should be responsible for one thing.
+1. No frameworks or libraries (Bootstrap/Materialize, jQuery, etc); everything is vanilla
+
 ## Requirements
 
 1. Create an array of objects that represent places you've been or want to go. These objects should have a title, image and description. You need at least 5 unique objects in the array.
@@ -28,9 +33,3 @@ BONUS BONUS BONUS ALERT: Users should be able to delete diary entries.
 ![But wait there's more...](http://s2.quickmeme.com/img/a7/a78ae76da19c1a0f9e0e9b2f7e6229e70bd36cf7bc5b2f29b5f8900face50234.jpg)
 
 BONUS BONUS BONUS BONUS ALERT: Users should be able to edit their diary entries.
-
-## Technical Requirements
-
-1. Single responsibility prinicple: Each function should be responsible for one thing.
-1. No frameworks or libraries (Bootstrap/Materialize, jQuery, etc); everything is vanilla
-
