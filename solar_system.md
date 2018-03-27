@@ -15,12 +15,12 @@
 ## Requirements
 
 1. Create a file called planets.json and fill it with information on each of the 8 planets in our solar system.  Each planet should have the following keys:
-  * name
-  * imageUrl
-  * description
-  * isGasPlanet (true/fales)
-  * numberOfMoons
-  * nameOfLargestMoon
+    * name
+    * imageUrl
+    * description
+    * isGasPlanet (true/fales)
+    * numberOfMoons
+    * nameOfLargestMoon
 2. Create an XHR request that loads planets.json and displays them as cards with the planet name centered
 ![Solar System Mockup](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/solarsystem1.png)
 3.  When the user moves their mouse over a planet card the name should dissapear and the image of the planet should take up the whole card.
