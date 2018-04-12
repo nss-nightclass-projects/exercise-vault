@@ -6,4 +6,4 @@ Your job is to create a web page that, when the user clicks anywhere in the wind
 
 > :pencil2: It does not need to look exactly like this. Display an arrow however you wish.
 
-![TSA Arrow](./tsa-arrow.gif)
+![TSA Arrow](./images/tsa-arrow.gif)
