@@ -22,9 +22,9 @@
     * numberOfMoons
     * nameOfLargestMoon
 2. Create an XHR request that loads planets.json and displays them as cards with the planet name centered
-![Solar System Mockup](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/solarsystem1.png)
+![Solar System Mockup](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/images/solarsystem1.png)
 3.  When the user moves their mouse over a planet card the name should dissapear and the image of the planet should take up the whole card.
 4.  When the user clicks on a planet card all the cards dissapear and the only thing displayed on the page is information about the planet they clicked on.
-![Solar System Mockup](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/solarsystem2.png)
+![Solar System Mockup](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/images/solarsystem2.png)
 5.  When the user clicks on the red X on a single planet that information goes away and all the original cards are displayed again.
 6.  When the user types in the search bar, planet cards should only show up if they have what is typed in their name or description.
