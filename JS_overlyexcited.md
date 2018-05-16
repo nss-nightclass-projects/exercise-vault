@@ -6,7 +6,7 @@
 1. Create an `overly-excited.js` file with the touch command.
 1. Copy the following code and paste it into the `index.html` file. Notice that the `overly-excited.js` file is properly linked so that when you load this HTML file in a web browser, the logic in that file will be executed.
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
     <head>
