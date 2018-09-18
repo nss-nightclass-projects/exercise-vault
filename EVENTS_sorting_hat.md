@@ -15,7 +15,8 @@ In the end, your app will look something like:
 - Your HTML and JS should all have proper indentations
 
 ## Planning Requrements
-- You should break out this project into deliverable features, i.e. sorting hat jumbotron with get started button, click event to show form, sorting event to clear form and print student, expel student event.
+- Create a github project for this assignment.
+- You should make cards/tickets based on deliverable features, i.e. sorting hat jumbotron with get started button, click event to show form, sorting event to clear form and print student, expel student event.
 
 ## Optional Bonus
 - Helpful Form: An error message shows if a user tries to sort a student without filling out the form.
