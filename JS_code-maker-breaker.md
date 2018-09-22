@@ -12,7 +12,7 @@ What we are looking for:
 * Cards should be by feature
 * Each card should have its own branch and follow the correct git branching process
 * Re-usable functions
-* Functinos follow single responsibility principle 
+* Functions follow single responsibility principle 
 * Clean code - proper indentation, comments as needed, no console.logs after merging
 
 Resources
