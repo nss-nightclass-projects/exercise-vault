@@ -6,6 +6,6 @@ Your app should also be able to decode secrets that are entered. In the end, you
 ![Code Maker Breaker Img](./images/codemaker-breaker.png)
 
 Resources
-- Docs on an alternative way [to loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-- Docs on [encoding text to UTF-12](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
-- Docs on [decoding text from UTF-12](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
+- Docs on built-in array method for [to loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) in javascript. Using this is optional.
+- Docs on [encoding text to UTF-12](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt).
+- Docs on [decoding text from UTF-12](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode).
