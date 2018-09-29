@@ -8,7 +8,7 @@ At minimum your Almost Amazon site should have:
 1. The ability to put the book in your cart 
 
 ## Tech Requirements
-This assignment is extremely simple - whats important here is to understand the new way we are organising files.  You should have the following files
+This assignment is extremely simple - whats important here is to understand the new way we are organizing our files.  You should have the following files:
 
 * **index.html** - usual stuff with all the html and script tags
 * **main.css** - for styling.  At minimum you should use the bootstrap grid system but feel free to style however you would like.
