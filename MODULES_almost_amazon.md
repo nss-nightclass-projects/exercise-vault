@@ -12,14 +12,14 @@ This assignment is extremely simple - whats important here is to understand the 
 
 ```
 - javascripts/
-  - main.js - the entry point to your app
+  - main.js  # the entry point to your app
   - components/
-    - store.js - should hold your book object as a private variable.  Should have an event listener for the add to cart button
-    - cart.js - should use a get method on the store module to get the price of the book. Should call the printToDom function and display the cart.
+    - store.js  # should hold your book object as a private variable.  Should have an event listener for the add to cart button
+    - cart.js  # should use a get method on the store module to get the price of the book. Should call the printToDom function and display the cart.
   - helpers/
-    - util.js - should have the printToDom function.
-- index.html - usual stuff with all the html and script tags
-- main.css - for styling.  At minimum you should use the bootstrap grid system but feel free to style however you would like.
+    - util.js  # should have the printToDom function.
+- index.html  # usual stuff with all the html and script tags
+- main.css  # for styling.  At minimum you should use the bootstrap grid system but feel free to style however you would like.
 ```
 
 ## Planning Requrements
