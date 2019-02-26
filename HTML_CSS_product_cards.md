@@ -1,5 +1,4 @@
-# The Static Web HTML + CSS
-
+# Product Cards
 ## Requirements
 
 Your task is to build a grid of cards for a company's products. Here are the requirements for the basic structure of the cards.
