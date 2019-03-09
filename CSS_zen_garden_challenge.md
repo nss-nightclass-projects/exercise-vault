@@ -8,7 +8,7 @@
 
 ## Requirements
 
-Visit [CSS Zen Garden](http://www.csszengarden.com/examples)  and explore some of the designs.  Pick a design you like and recreate it.
+Visit [CSS Zen Garden](https://www.csszengarden.com/examples)  and explore some of the designs.  Pick a design you like and recreate it.
 
 Think carefully about how you create your HTML to ensure that it appropriately uses semantic and non semantic tags.
 
