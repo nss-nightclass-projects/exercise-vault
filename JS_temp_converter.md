@@ -25,11 +25,11 @@ Write a program that will convert a temperature from fahrenheit to celsius, or f
 9. For any other temperature, the color should be green.
 
 ```js
-const toCelsius =  () {
+const toCelsius =  () => {
 
 }
 
-const toFahrenheit =  () {
+const toFahrenheit =  () => {
 
 }
 
@@ -38,7 +38,7 @@ const button = document.getElementById("converter");
 
 // This function should determine which conversion should
 // happen based on which radio button is selected.
-const determineConverter = (e) {
+const determineConverter = (e) => {
   console.log("event", e);
 }
 
