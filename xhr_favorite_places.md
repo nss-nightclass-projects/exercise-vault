@@ -15,6 +15,8 @@ Create a places.json file that has an array of places.  Each Place should have t
 * favoriteHotel
 * favoriteTouristAttraction
 
+You should be using an XHR request to get your data displaying on the page.
+
 ## Technical Requirements
 - You must use [Boostrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) to style your page components. 
 - You should apply responsive design to your page (aka your app should be designed to work on small screens)
