@@ -16,7 +16,7 @@ Your project should have one HTML file that has:
 + The ability to select multiple, or zero, choices for each section (such as turkey _and_ bacon, or "no meat") 
 + An empty DOM element into which the final sandwich order and its cost will be inserted  
 
-The ingredient choices should be stored as JS objects that contain the ingredients as keys and their cost as the value. `{"turkey": 0.90, "bacon": 1.50}`.  Each set of ingredients should start off in a json file and get read into the appropriate js file.  
+The ingredient choices should be stored as JS objects that contain the ingredients as keys and their cost as the value. `{"turkey": 0.90, "bacon": 1.50}`.
 
 Make sure the ingredient objects cannot be accessed by the other modules except through an accessor (getter) method.  
 
