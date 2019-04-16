@@ -1,6 +1,8 @@
 # Tamagotchi
 Remember Tamagotchi's?  They looked something like this:
+
 ![Tamagotchi](./images/tamagotchi.jpg)
+
 In case you lived under a rock in the 90s a Tamagotchi was the first "digital virtual pet".  It had three buttons and 8 different menus.  After activating it an egg would hatch and then you would be responsible for keeping your pet alive.  Your pet could do things like eat, sleep, play, get sick, get medicine, and poop.  They sold over 82 million of them before 2017.
 
 For this HW we are going to create a simplified version of a Tamagotchi.
