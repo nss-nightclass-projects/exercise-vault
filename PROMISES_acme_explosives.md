@@ -17,11 +17,11 @@ Here's an example.
 {
     "categories": [
         {
-            "id": 0,
+            "id": "category0",
             "name": "Fireworks"
         },
         {
-            "id": 1,
+            "id": "category1",
             "name": "Demolition"
         }
     ]
@@ -38,8 +38,8 @@ Create a JSON file describing types **for each** category of your products. For 
 {
     "types": [
         {
-            "id": 0,
-            "category": 0,
+            "id": "type0",
+            "category": "category0",
             "name": "personal",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         }
@@ -57,8 +57,8 @@ Create a JSON file describing each product you offer. Add a key/value pair that 
 {
     "products": [{
         "fairy_sparklers": {
-            "id": 0,
-            "type": 0,
+            "id": "product0",
+            "type": "type0",
             "name": "Fairy Sparklers",
             "description": "Multi-colored sparklers that are safe for any age."
         }
@@ -67,8 +67,11 @@ Create a JSON file describing each product you offer. Add a key/value pair that 
 ```
 
 
-### User interface
+### Display
+use Promises to read, first, from the `categories.json` to load that array of objects, then load `types.json`, then `products.json`.  Once you have all the data display each product as a bootstrap card - 4 to a row.  Each card should say the name, description, product name, type name, and category name for that product.
 
-Create a simple user interface for your product catalog where a user can select a category from a dropdown. When a category is selected, you must use Promises to read, first, from the `categories.json` to load that array of objects, then load `types.json`, then `products.json`.
 
-Once all data is loaded, you need to display the products in a Bootstrap grid. Each product must display the string name of its product type, and product category. Not the integer id value.
+### Bonus
+On page load a user should see a dropdown menu that gets populated with category names after the promise for categories.json loads.
+
+When a user selects a category they should only see the products that belong to that category.
