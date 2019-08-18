@@ -1,4 +1,10 @@
 # Product Cards
+
+## Setup
+* While in `~/workspace/foundations/exercises`, make a directory called `product-cards`
+* Create a github repository called `product-cards` and push up a README.md file
+* Create a setup branch and push up the usual stuff
+
 ## Requirements
 
 Your task is to build a grid of cards for a company's products. Here are the requirements for the basic structure of the cards.
