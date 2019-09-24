@@ -1,5 +1,11 @@
 # Sandwich Maker
 
+## User Stories
+1.  As a user, when I come to the page, I should see checkboxes with all possible sandwich options
+2.  As a user, when I make my sandwich selections and click enter I should see a list of all the ingredients I have selected and their prices.
+3.  As a user, when I make my sandwich selections and click enter I should see a total cost for my sandwich.
+
+
 ## Requirements
 
 Create a sandwich order form that allows the user to select all the ingredients for a custom deli sandwich. Each of the following should be separate modules:
@@ -9,7 +15,7 @@ Create a sandwich order form that allows the user to select all the ingredients 
 + cheese
 + condiments
 + veggies
-+ sandwhich
++ sandwich
 
 Your project should have one HTML file that has:
 
