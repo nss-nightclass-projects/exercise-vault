@@ -1,30 +1,30 @@
 # Solar System
 
 ## Setup
-1. Create a new repository on GitHub
-1. Connect the repository with a directory in single-page-apps/exercises
+1. Create a new repository on GitHub called `solar-system`
+1. Connect the repository with a directory in `workspace/patterns_tools/exercises`
 1. Create a GitHub project and thoroughly plan out the project, breaking it into well-documented tickets.
 1. After pushing your base README.md to master, you should be working off branches
-1. Create an index.html, main.js and main.css and link them all together.
 
 ## Technical Requirements
 
 1. Single responsibility prinicple: Each function should be responsible for one thing.
-1. No frameworks or libraries (Bootstrap/Materialize, jQuery, etc); everything is vanilla
+1. You should be using bootstrap - at minimum use the grid system but see what other components you can use
+1. Jquery for ALL dom manipulation.  There should be NO document.getElementById, document.getElementsByClassName, or document.addEventListener() anywhere in your code.  Use the appropriate jquery equivalent.
 
 ## Requirements
 
-1. Create a file called planets.json and fill it with information on each of the 8 planets in our solar system.  Each planet should have the following keys:
+1. Create a file called `src/javascripts/helpers/data/planets.js` and fill it with information on each of the 8 planets in our solar system.  Each planet should have the following keys:
     * name
     * imageUrl
     * description
     * isGasPlanet (true/fales)
     * numberOfMoons
     * nameOfLargestMoon
-2. Create an XHR request that loads planets.json and displays them as cards with the planet name centered
+2. On page load each planet should appear as a card with ONLY the name displayed.  Like this:
 ![Solar System Mockup](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/images/solarsystem1.png)
-3.  When the user moves their mouse over a planet card the name should dissapear and the image of the planet should take up the whole card.
-4.  When the user clicks on a planet card all the cards dissapear and the only thing displayed on the page is information about the planet they clicked on.
+3.  When the user moves their mouse over a planet card the name should disappear and the image of the planet should take up the whole card.
+4.  When the user clicks on a planet card all the cards disappear and the only thing displayed on the page is information about the planet they clicked on.
 ![Solar System Mockup](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/images/solarsystem2.png)
 5.  When the user clicks on the red X on a single planet that information goes away and all the original cards are displayed again.
 6.  When the user types in the search bar, planet cards should only show up if they have what is typed in their name or description.
