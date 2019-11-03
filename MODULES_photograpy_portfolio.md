@@ -1,5 +1,6 @@
 # Photography Portfolio
 ## Introduction
+You are creating a photography filtering site for a famous photographer who wants to showcase their work.
 
 ## Planning Requirements
 * Create a new github repo called `photography-portfolio`
@@ -15,6 +16,7 @@
 * You should be using [webpack](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/task-runners.md) to compile your JS and SCSS
 * You should be writing all your CSS/SCSS in SCSS files
 * Your JS code should be eslint error and warning free
+* For this project ALL your photographs should be image urls - DO NOT store the photos locally.
 
 ## User stories
 * As a user, when the page loads, I should see all my photographs.
