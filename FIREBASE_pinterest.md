@@ -35,9 +35,21 @@ Your team has been tasked with creating pinterest.  If you live under a rock and
 * As a user, when I am on the single board view, there should be some way to go back to all my boards.
 
 ### Part 3: DELETE
+* As a user, I should be able to delete a pin from one of my board.
+
+* As a user, I should be able to delete one of my boards.
+
+* As a user, when I delete one of my boards all pins that were on that board should be deleted as well.
 
 ### Part 4: CREATE
+* As a user, I should be able to create a new pin.
+
+* As a user, I should be able to create a new board.
 
 ### Part 5: UPDATE
+* As a user, I should be able to change which board a pin belongs to.
 
-### Part 6: Deploy
+### Part 6: Deploy and Readme
+* As a user I should be able to use your app on the internet - it should be deployed using firebase.
+
+* As a developer, I want to see an amazing README for this project.
