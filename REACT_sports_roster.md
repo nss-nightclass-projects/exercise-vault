@@ -3,6 +3,7 @@ For this project you will be building a team roster for a sports team.  Pick any
 
 ## Requirements
 Here is the ERD for this project:
+
 ![ERD](./images/react_roster_erd.png)
 
 Here are the user stories that need to be completed:
