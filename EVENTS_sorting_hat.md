@@ -18,6 +18,12 @@ In the end, your app will look something like:
 - Create a github project for this assignment.
 - You should make cards/tickets based on deliverable features, i.e. sorting hat jumbotron with get started button, click event to show form, sorting event to clear form and print student, expel student event.
 
+## Add Button Hints
+When a new student is added an object should be created and that object should be pushed into an array of students that then prints to the dom.
+
+## Expel Button Hints
+Think of a way you can expel students without just hiding those divs on the page.  This would mean when the button is clicked you modify the array of students and pass the new array into your print to dom function.  Double hint - put a unique id in the student object when you create them.
+
 ## Optional Bonus
 - Helpful Form: An error message shows if a user tries to sort a student without filling out the form.
 - House Colors: The color of the student's card changes depending on which house they were sorted. 
