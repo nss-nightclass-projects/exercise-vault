@@ -14,10 +14,6 @@ In the end, your app will look something like:
 - Your JS file should be comprised of functions, no actions should happen in your code outside of a function
 - Your HTML and JS should all have proper indentations
 
-## Planning Requrements
-- Create a github project for this assignment.
-- You should make cards/tickets based on deliverable features, i.e. sorting hat jumbotron with get started button, click event to show form, sorting event to clear form and print student, expel student event.
-
 ## Add Button Hints
 When a new student is added an object should be created and that object should be pushed into an array of students that then prints to the dom.
 
