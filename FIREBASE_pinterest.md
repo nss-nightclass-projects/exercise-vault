@@ -25,7 +25,6 @@ Your team has been tasked with creating pinterest.  If you live under a rock and
 #### Setup
 * Create some json data
 * Import that data into firebase
-* Create a `SingleBoard` component
 
 #### User Stories
 * As a user, when I am logged in and the page loads, I should see all the boards that belong to me.
