@@ -13,4 +13,5 @@ You'll note this is a pretty open assignment. You could display the information 
 If you're feeling especially 🌶, throw some buttons on there to show only one type of thing at a time! Like Phase 1, then Phase 2, etc etc etc.
 
 Mayor Cooper Thanks You!
+--------
 ![](https://www.asafenashville.org/wp-content/uploads/2020/03/Mayor-Cooper-headshot-serious-286x300.jpg)
