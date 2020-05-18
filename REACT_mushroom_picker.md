@@ -35,9 +35,9 @@ In addition to the `App` component your application should have the following co
 * As a user, when the page loads, I should see a button thats says "Pick Mushroom"
 * As a user, when I click the "Pick Mushroom" button, a random mushroom should be placed in my basket.
 * As a user, I should be able to have more than one of the same mushroom in my basket.  Stretch Goal: only display one mushroom but state the # of that type of mushrooms you have
-* As a user, if I pick a poisonous mushroom (isPoisonous === true) two other mushrooms in my basket should DIE - ie get removed
-* As a user, if I pick a deadly mushroom (isDeadly === true) ALL the mushrooms in my basket should DIE - ie get removed
-* As a user, if I pick a magic mushroom (isMagic === true) then I should get one of each of the non magic, non poisonous, and non deadly mushrooms added to my basket
-* As a user, if my basket has one (or more) of each type of mushroom that is non poisonous or non deadly then I have collected them all and I should WIN.
+* As a user, if I pick a poisonous mushroom (isPoisonous === true) two other mushrooms in my basket should DIE - ie get removed (in addition the poisonous mushroom picked should NOT show up in the basket)
+* As a user, if I pick a deadly mushroom (isDeadly === true) ALL the mushrooms in my basket should DIE - ie get removed (in addition the poisonous mushroom picked should NOT show up in the basket)
+* As a user, if I pick a magic mushroom (isMagic === true) then I should get one of each of the non magic, non poisonous, and non deadly mushrooms added to my basket (in addition the magic mushroom picked should NOT show up in the basket)
+* As a user, if my basket has one (or more) of each type of mushroom that is non poisonous, non deadly, or non magic (ie regular plain mushroom) then I have collected them all and I should WIN.
 * As a user, if I WIN, something cool should happen.
 * As a user, if I pick a poisonous or deadly mushroom, something dark and scarry should happen
