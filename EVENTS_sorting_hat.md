@@ -15,6 +15,8 @@ This is what the finished app should have:
 In the end, your app will look something like: 
 ![Sorting Hat Mockup](./images/sorting-hat-mockup.png)
 
+[See Demo](https://drt-sortinghat.netlify.app/)
+
 ## Technical Requirements
 - You must use [Boostrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) to style your page components. 
 - You should apply responsive design to your page (aka your app should be designed to work on small screens)
