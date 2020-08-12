@@ -1,5 +1,5 @@
 # Sports Roster
-For this project you will be building a team roster for a sports team.  Pick any sport you want (but hockey is clearly the best choice).  Theme your project based on the sport.
+For this project you will be building a team roster for a sports team.  Pick any sport you want (but ~hockey~ American Football is clearly the best choice).  Theme your project based on the sport.
 
 ## Requirements
 Here is the ERD for this project:
