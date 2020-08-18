@@ -76,3 +76,13 @@ isNice | bool
 ### Trade Cats
 * As an authenticated user I should be able to move a Cat from one Cafe to another
   * When viewing a Cafe there should be a "move" button, which displays a list of Cafes this cat can be moved to. The UI/UX is up to you
+  
+  
+## Double Bonus
+
+### User Profile
+* As an authenticated user I should be able to click my photo in the top nav and see my profile
+* That profile should have my name, email address, and a preferred username
+* If the fields haven't been filled out by me, they should be prepopulated for me
+* I should be able to edit the Name and Username fields
+* On saving the edit those changes should persist across logins
