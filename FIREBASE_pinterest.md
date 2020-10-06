@@ -34,7 +34,7 @@ Your team has been tasked with creating pinterest.  If you live under a rock and
 * As a user, when I am on the single board view, there should be some way to go back to all my boards.
 
 ### Part 3: DELETE
-* As a user, I should be able to delete a pin from one of my board.
+* As a user, I should be able to delete a pin from one of my boards.
 
 * As a user, I should be able to delete one of my boards.
 
