@@ -49,6 +49,6 @@ Your team has been tasked with creating pinterest.  If you live under a rock and
 * As a user, I should be able to change which board a pin belongs to.
 
 ### Part 6: Deploy and Readme
-* As a user I should be able to use your app on the internet - it should be [deployed using firebase](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md).
+* As a user I should be able to use your app on the internet - it should be [deployed using firebase or Netlify](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-3-data-driven-applications/chapters/firebase-deploy.md).
 
 * As a developer, I want to see an amazing README for this project.
