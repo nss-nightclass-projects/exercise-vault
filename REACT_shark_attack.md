@@ -4,7 +4,7 @@ Oh no your entire class has fallen into a pool infested with sharks and they are
 ## Requirements
 The focus of this assignment is state and props in react.
 * You will NOT be using firebase.
-* Every file that has a `this.props` should have the appropriate proptypes defined.
+* Every file that has a `props` should have the appropriate proptypes defined.
 * DO NOT COPY PASTE ANYTHING - hand type every part of this assignment copy/paste doesn't teach you to read errors.
 
 ### React Components
