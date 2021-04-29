@@ -23,7 +23,7 @@ In addition to the `App` component your application should have the following co
   * The `isDead` key should be set to `false` for everyone on load
   * This file should export a function called `livingStudents` that returns an array of the students where `student.isDead === false`
   * This file should export a function called `dearlyBeloved` that returns an array of the students where `student.isDead === true`
-  * This file should export a function called `followTheLight` that takes in an id, finds that student, and changes `student.isDead` to `true`
+  * This file should export a function called `followTheLight` that picks a random student, and changes `student.isDead` to `true`
 * The `App.js` file should call the two functions exported out of `studentsData.js` and pass the arrays into the appropriate components (`dearlyBeloved` passes into `<Graveyard />` and `livingStudents` passes into `<SharkTank />`).
 
 ### Live Student User Stories
